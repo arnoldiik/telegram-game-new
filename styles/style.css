@@ -11,13 +11,17 @@ body {
 }
 
 .container {
-    width: 320px;
+    width: 1080px; /* Ширина экрана телефона */
+    height: 1920px; /* Высота экрана телефона */
     background-color: rgba(0, 0, 0, 0.7);
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     padding: 20px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .hidden {
